@@ -19,6 +19,8 @@ export default function App() {
       setEmployees(newArr);
       setCounter(0);
       //setEmployees(new Array(data).splice(0, 10));
+    }else{
+      alert("failed to fetch data");
     }
   }
   useEffect(() => {
